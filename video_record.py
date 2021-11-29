@@ -12,7 +12,7 @@ class Vout:
     for i in range(100):
         v.frame = img[i]
         time.sleep(0.2)
-    v.stop()
+    v.stop() 
     
     '''
     def __init__(self, vpath = 'out.mp4', size = (720,480), fps = 15.0):
