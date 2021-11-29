@@ -8,7 +8,7 @@ class Vout:
 
     v = Vout()
     v.start()
-  
+    sadf
     for i in range(100):
         v.frame = img[i]
         time.sleep(0.2)
